@@ -1,0 +1,17 @@
+# Virtual environment
+rse-env/
+
+# Data - too large and/or licensed
+data/raw/
+data/processed/
+
+# Credentials - never commit these
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Generated outputs
+reports/figures/
